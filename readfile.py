@@ -4,6 +4,17 @@
 #    lst.append(num.rstrip("\n"))
 #print(lst)
 
+#we can also read a file asssss
+with open ("filepath","r") as File1:
+    Filenew = File1.read()
+    print(Filenew)
+    
+#we can read 1st line by
+with open ("filepath","r") as File1:
+    Filenew = File1.readline()
+    print(Filenew)
+ #Here if we give 2,3,4 etc inside brackets-we will get output that much compoenents
+
 #open tempfile and load district and their max temp
 #step1:open temp file in python
 #f = open("tempfile","r")
