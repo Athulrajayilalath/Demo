@@ -19,7 +19,7 @@
 #take name and age as input and get output as username is "name" and age is "age"
 
 def person(name,age):
-    print("username is"+" "+name,age)
+    print("username is"+name+" and age is "+age)
 
 person("athul",str(26))
 
